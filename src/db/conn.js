@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-
-mongoose.connect('mongodb://localhost:27017/students', {
+const url = `mongodb+srv://rahul:rahul@cluster0.decvt.mongodb.net/students?retryWrites=true&w=majority`
+mongoose.connect(url, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
