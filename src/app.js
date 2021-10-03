@@ -1,6 +1,3 @@
-console.clear();
-// ----------------------------------------------------------------
-
 const express = require('express');
 const app = express();
 const router = require('./routers/route.js');
